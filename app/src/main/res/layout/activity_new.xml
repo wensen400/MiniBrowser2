@@ -32,6 +32,7 @@
         android:layout_height="match_parent"
         android:layout_below="@+id/button_get"
         android:layout_toStartOf="@+id/button_post"
+        android:layout_toLeftOf="@+id/button_post"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true">
 
