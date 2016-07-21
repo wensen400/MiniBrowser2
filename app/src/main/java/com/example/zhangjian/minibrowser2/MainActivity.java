@@ -35,9 +35,9 @@ public class MainActivity extends AppCompatActivity {
         showWebView = (WebView) findViewById(R.id.show);
         searchbutton = (Button) findViewById(R.id.searchbutton);
 
-        String ustr = "http://www.sogou.com";
-        url.setText(ustr);
-        showWebView.loadUrl(ustr);
+        //String ustr = "http://www.sogou.com";
+        //url.setText(ustr);
+        //showWebView.loadUrl(ustr);
 
         showWebView.setWebViewClient(new WebViewClient() {
             public boolean shouldOverrideUrlLoading(WebView view, String url) {
