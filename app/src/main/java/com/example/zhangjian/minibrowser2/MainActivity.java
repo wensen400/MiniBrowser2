@@ -52,7 +52,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 urlstr = url.getText().toString();
-                showWebView.loadUrl(ustr+urlstr);
+                showWebView.loadUrl("http://wap.sogou.com/web/searchList.jsp?&keyword="+urlstr);
             }
         });
 
