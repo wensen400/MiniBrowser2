@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
         showWebView = (WebView) findViewById(R.id.show);
         searchbutton = (Button) findViewById(R.id.searchbutton);
 
-        //String ustr = "http://www.sogou.com";
+        String ustr = "http://wap.sogou.com/web/searchList.jsp?&keyword=";
         //url.setText(ustr);
         //showWebView.loadUrl(ustr);
 
@@ -52,7 +52,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 urlstr = url.getText().toString();
-                showWebView.loadUrl(urlstr);
+                showWebView.loadUrl(ustr+urlstr);
             }
         });
 
